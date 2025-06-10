@@ -8,3 +8,4 @@ try:
     print(f"El archivo tiene {numero_lineas} lineas.")
 except FileNotFoundError:
     print(f"Error: El archivo '{nombre}' no fue encontrado.")
+    mi_archivo.close()
