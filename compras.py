@@ -6,3 +6,4 @@ while True:
         break
     mi_archivo.write(producto + "\n")
     print("Tu lista de compras ha sido guardada en compras.txt.")
+mi_archivo.close()
